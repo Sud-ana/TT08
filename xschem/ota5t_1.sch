@@ -16,9 +16,9 @@ lab=BIAS}
 N 460 -520 690 -520 {
 lab=BIAS}
 N 660 -650 680 -650 {
-lab=0}
+lab=VSS}
 N 830 -650 850 -650 {
-lab=0}
+lab=VSS}
 N 730 -620 850 -620 {
 lab=#net1}
 N 600 -650 620 -650 {
@@ -91,9 +91,14 @@ N 420 -660 420 -600 {
 lab=BIAS}
 N 990 -780 1000 -780 {
 lab=DIFFOUT}
-C {devices/lab_pin.sym} 960 -720 0 0 {name=p20 lab=0  net_name=true}
-C {devices/lab_pin.sym} 680 -650 0 1 {name=p5 lab=0  net_name=true}
-C {devices/lab_pin.sym} 830 -650 0 0 {name=p0 lab=0  net_name=true}
+N 960 -720 960 -440 {
+lab=VSS}
+N 580 -440 960 -440 {
+lab=VSS}
+N 680 -650 830 -650 {
+lab=VSS}
+N 770 -650 770 -440 {
+lab=VSS}
 C {devices/ngspice_probe.sym} 730 -620 0 0 {name=r3}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 830 -840 0 0 {name=M7
 L=2
@@ -186,4 +191,4 @@ C {devices/ipin.sym} 730 -910 0 0 {name=p7 lab=VCC}
 C {devices/ipin.sym} 580 -420 0 0 {name=p3 lab=VSS}
 C {devices/ipin.sym} 420 -660 0 0 {name=p9 lab=BIAS}
 C {devices/opin.sym} 1000 -780 0 0 {name=p8 lab=DIFFOUT}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 960 -750 0 0 {name=C1 model=cap_mim_m3_1 W=2.5 L=2.5 MF=100 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 960 -750 0 0 {name=C1 model=cap_mim_m3_1 W=10 L=10 MF=10 spiceprefix=X}
