@@ -23,7 +23,7 @@ module tt_um_sudana_ota5t_1 (
 //Instantiate the design using the name of the cell
 
 	ota5t_1 ota5t_1 (
-         .VDD(VDPWR),
+     .VCC(VDPWR),
 	 .VSS(VGND),
 	 .PLUS(ua[3]),
 	 .MINUS(ua[2]),
