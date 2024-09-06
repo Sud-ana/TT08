@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1725632261
+timestamp 1725635740
 << locali >>
 rect 19047 5685 19253 5691
 rect 17586 5652 17770 5658
@@ -278,8 +278,8 @@ rect 26498 0 26678 435
 rect 30362 501 30363 679
 rect 30541 501 30542 679
 rect 30362 0 30542 501
-use ota5t_1  ota5t_1_0
-timestamp 1723807770
+use ota5t_1  ota5t_1_0 ~/sud_tt08/TT08/mag
+timestamp 1725635740
 transform 1 0 20588 0 1 25366
 box -24 -22352 6878 2494
 << labels >>
