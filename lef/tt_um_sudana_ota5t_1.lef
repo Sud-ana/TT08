@@ -470,7 +470,7 @@ MACRO tt_um_sudana_ota5t_1
       LAYER met2 ;
         RECT 68.365 2.390 152.730 139.260 ;
       LAYER met3 ;
-        RECT 66.040 1.200 152.735 139.255 ;
+        RECT 1.150 1.200 152.735 139.860 ;
       LAYER met4 ;
         RECT 3.000 224.360 30.270 224.760 ;
         RECT 31.370 224.360 33.030 224.760 ;
@@ -528,8 +528,6 @@ MACRO tt_um_sudana_ota5t_1
         RECT 95.150 1.000 112.770 1.400 ;
         RECT 114.470 1.000 132.090 1.400 ;
         RECT 133.790 1.000 151.410 1.400 ;
-      LAYER met5 ;
-        RECT 1.100 137.550 19.925 139.955 ;
   END
 END tt_um_sudana_ota5t_1
 END LIBRARY
