@@ -29,7 +29,7 @@ module tt_um_sudana_ota5t_1 (
 	 .MINUS(ua[2]),
 	 .DIFFOUT(ua[0]),
 	 .BIAS(ua[1])
-	)
+	);
 //Tie all outputs low so that they aren't left floating 
 
 	assign uo_out[0] = VGND;

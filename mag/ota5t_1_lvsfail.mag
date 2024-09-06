@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1723732338
+timestamp 1723807217
 << nwell >>
 rect 1207 1767 1294 2109
 << locali >>
@@ -231,31 +231,31 @@ rect 4764 -21129 4765 -21027
 rect 4867 -21129 4868 -21027
 rect 4764 -21130 4868 -21129
 use sky130_fd_pr__cap_mim_m3_1_72JAQ7  XC1
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 4962 0 1 -9412
 box -1186 -11600 1186 11600
 use sky130_fd_pr__nfet_01v8_AHRV9L  XM1
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 2842 0 1 -2016
 box -396 -610 396 610
 use sky130_fd_pr__pfet_01v8_lvt_GWNSVV  XM2
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 1250 0 1 1487
 box -396 -719 396 719
 use sky130_fd_pr__nfet_01v8_AHRV9L  XM3
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 1480 0 1 -1988
 box -396 -610 396 610
 use sky130_fd_pr__nfet_01v8_lvt_8TEWK3  XM4
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 2484 0 1 -602
 box -246 -410 246 410
 use sky130_fd_pr__nfet_01v8_lvt_8TEWK3  XM6
-timestamp 1723644071
+timestamp 1723797800
 transform -1 0 1672 0 1 -574
 box -246 -410 246 410
 use sky130_fd_pr__pfet_01v8_lvt_GWNSVV  XM7
-timestamp 1723644071
+timestamp 1723797800
 transform 1 0 2806 0 1 1469
 box -396 -719 396 719
 << labels >>
