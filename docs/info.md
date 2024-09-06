@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+Apply a VDD of 1.8V and VSS ground. 
+Then apply a 1uA current to BIAS pin.
+Then apply 0.9V to MINUS pin, while applying a voltage of 0-1.8V on PLUS pin in 10mV steps. 
+Observe the DIFFOUT pin and check that DIFFOUT shoots up to 1.8V when PLUS is greater than MINUS by 10mV. 
 ## How to test
 
-Explain how to use your project
+Observe the DIFFOUT pin and check that DIFFOUT shoots up to 1.8V when PLUS is greater than MINUS by 10mV. 
+     
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Power Supply, Sourcemeter for currents, Multimeter to measure voltage. 
